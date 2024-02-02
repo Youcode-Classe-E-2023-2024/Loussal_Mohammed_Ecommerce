@@ -13,4 +13,10 @@ class ProductController extends Controller
         return view('product.liste',compact('product'));
     }
 
+    public function ajouter_product()
+    {
+        return view('product.ajouter');
+    }
+
+   
 }
